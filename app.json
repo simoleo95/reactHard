@@ -19,10 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.simoleo.tabs"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "android": {
+      "package": "com.simoleo.tabs"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
